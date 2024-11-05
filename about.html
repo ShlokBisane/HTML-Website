@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        body {
+            background-image: url("background.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-size: 20px;
+        }
+        .header {
+            margin: 0;
+            padding: 1px 0;
+            overflow: hidden;
+            background-color: rgb(250, 205, 3);
+            width: 100%;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 10px;
+        }
+        .nav {
+            background-color: rgb(250, 205, 3);
+        }
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul li {
+            border-right: 1px solid yellow;
+        }
+        .nav ul li:last-child {
+            border-right: none;
+        }
+        .nav ul li a {
+            display: block;
+            color: red;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav ul li a:hover {
+            background-color: #111111;
+            color: whitesmoke;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            background-image: url("download (9).jpg");
+            background-size: cover;
+            background-position: center;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            text-align: center;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            width: 100%;
+            bottom: 0px;
+            margin-top: 110px;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>About Us</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li><a href="home2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Hobbies</a>
+                <div class="dropdown-content">
+                    <a href="travel2.html">Traveling</a>
+                    <a href="music2.html">Music</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="suggestion2.html">Suggestion</a></li>
+        </ul>
+    </div>
+
+    <div class="banner"></div>
+
+    <div class="container">
+        <h2>Welcome to Our Hobbies Exploration Site!</h2>
+        <p>At Hobbies Exploration, we believe that engaging in hobbies is essential for a balanced and fulfilling life. Our mission is to inspire individuals to explore new interests, develop skills, and connect with like-minded people.</p>
+        
+        <h3>What We Offer</h3>
+        <ul>
+            <li>In-depth articles on various hobbies, including photography, gardening, cooking, painting, reading, and traveling.</li>
+            <li>Tips and resources to help you get started with your favorite hobbies.</li>
+            <li>A community of hobby enthusiasts where you can share your experiences and learn from others.</li>
+            <li>Regular updates on events, workshops, and classes related to different hobbies.</li>
+        </ul>
+
+        <h3>Our Vision</h3>
+        <p>We envision a world where everyone has the opportunity to explore their passions and discover new interests. Hobbies not only enrich our lives but also foster creativity, relaxation, and personal growth.</p>
+
+        <h3>Join Us!</h3>
+        <p>Whether you are a seasoned hobbyist or just starting out, we invite you to join our community. Explore our articles, share your experiences, and connect with others who share your interests. Together, let's make the world a more vibrant place through the joy of hobbies!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hobbies Exploration. All rights reserved.</p>
+    </footer>
+</body>
+</html>

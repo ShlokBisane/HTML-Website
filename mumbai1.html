@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mumbai</title>
+    <style>
+        body {
+            background-image: url("istockphoto-986733472-2048x2048.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        .header {
+            margin: 0;
+            padding: 1px 0;
+            overflow: hidden;
+            background-color: rgb(250, 205, 3);
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 10px;
+        }
+        .nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .nav ul li {
+            border-right: 1px solid yellow;
+        }
+        .nav ul li:last-child {
+            border-right: none;
+        }
+        .nav ul li a {
+            display: block;
+            color: red;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav ul li a:hover {
+            background-color: #111111;
+            color: whitesmoke;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .main-card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            padding: 15px;
+            width: 300px;
+        }
+        .sub-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .sub-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            width: 130px;
+            overflow: hidden;
+        }
+        .sub-card img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+        }
+        .sub-card-body {
+            padding: 10px;
+        }
+        .sub-card-title {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .sub-card-text {
+            font-size: 14px;
+            color: #555;
+        }
+        footer {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Mumbai: The City of Dreams</h1>
+    </h1>
+    <div class="nav">
+        <ul>
+            <li><a href="home2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Hobbies</a>
+                <div class="dropdown-content">
+                    <a href="travel2.html">Traveling</a>
+                    <a href="music2.html">Music</a>
+                </div>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="suggestion2.html">Suggestion</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="main-card">
+        <h2>Culture</h2>
+        <div class="sub-container">
+
+            <div class="sub-card">
+                <img src="1bollywood.webp" alt="Bollywood">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Bollywood</div>
+                    <div class="sub-card-text">
+                        The heart of the Indian film industry, Bollywood produces numerous films each year, showcasing vibrant culture and storytelling.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="lalbaug.avif" alt="Festivals">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Festivals</div>
+                    <div class="sub-card-text">
+                        Mumbai celebrates a variety of festivals with great enthusiasm, including Ganesh Chaturthi, Diwali, and Eid.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="1-national-gallery-of-modern-art-mumbai-maharashtra-attr-hero (1).jpg" alt="Art Galleries">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Art Galleries</div>
+                    <div class="sub-card-text">
+                        Mumbai is home to numerous art galleries showcasing contemporary and traditional Indian art.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="SOI.jpg" alt="Music">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Music</div>
+                    <div class="sub-card-text">
+                        The city has a rich musical heritage, from classical to modern genres, with many live performances throughout the year.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-card">
+        <h2>Places</h2>
+        <div class="sub-container">
+
+            <div class="sub-card">
+                <img src="Gateway-of-India-Mumbai-History-and-Heritage.avif" alt="Gateway of India">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Gateway of India</div>
+                    <div class="sub-card-text">
+                        A historical monument that marks the entrance to Mumbai, built in 1924. It's a popular tourist spot with stunning views of the Arabian Sea.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="1757215-360f466465310vvtvs6xzhedn2gxqt9fazpbfovbshwdx1.webp" alt="Marine Drive">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Marine Drive</div>
+                    <div class="sub-card-text">
+                        Known as the "Queen's Necklace," Marine Drive is a 3.6 km long boulevard along the coast, famous for its scenic views and sunset.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="d3a565_6c006b853a174e25850a573f1a609cc3~mv2.webp" alt="Elephanta Caves">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Elephanta Caves</div>
+                    <div class="sub-card-text">
+                        A UNESCO World Heritage Site, these ancient rock-cut caves are famous for their sculptures depicting Hindu deities.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="Chhatrapati-Shivaji-Terminus-railway-station-mumbai.jpg" alt="Chhatrapati Shivaji Terminus">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Chhatrapati Shivaji Terminus</div>
+                    <div class="sub-card-text">
+                        An iconic railway station and a UNESCO World Heritage Site, known for its stunning Victorian Gothic architecture.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="main-card">
+        <h2>Food</h2>
+        <div class="sub-container">
+
+            <div class="sub-card">
+                <img src="hq720.jpg" alt="Vada Pav">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Vada Pav</div>
+                    <div class="sub-card-text">
+                        A popular street food, Vada Pav is a spicy potato filling sandwiched between bread, often served with chutneys.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="download.jpg" alt="Pav Bhaji">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Pav Bhaji</div>
+                    <div class="sub-card-text">
+                        A delicious mix of mashed vegetables served with buttered bread rolls, it's a must-try Mumbai delicacy.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="download (1).jpg" alt="Bhel Puri">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Bhel Puri</div>
+                    <div class="sub-card-text">
+                        A tangy and crunchy snack made from puffed rice, vegetables, and a mix of chutneys, perfect for a quick bite.
+                    </div>
+                </div>
+            </div>
+
+            <div class="sub-card">
+                <img src="download (2).jpg" alt="Pani Puri">
+                <div class="sub-card-body">
+                    <div class="sub-card-title">Pani Puri</div>
+                    <div class="sub-card-text">
+                        A popular street snack consisting of hollow puris filled with spicy water, tamarind chutney, and potatoes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Hobbies Exploration. All rights reserved.</p>
+</footer>
+</body>
+</html>
+
+
